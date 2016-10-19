@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Sortable - Default functionality</title>
+    <link rel="stylesheet" href="modsortlist.css">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sortableContainer">
+        <ul id="sortable">
+            <li class="ui-state-default" id="1">MIT</li>
+            <li class="ui-state-default" id="2">Harvard</li>
+            <li class="ui-state-default" id="3">Ice Cream</li>
+            <li class="ui-state-default" id="4">Seafood</li>
+            <li class="ui-state-default" id="5">Lighthouse</li>
+            <li class="ui-state-default" id="6">Beach</li>
+            <li class="ui-state-default" id="7">Park</li>
+        </ul>
+
+        <form id="ourForm">
+            Order:
+            <input type="text" name="orderItems" value="1,2,3,4,5,6,7" autocomplete=off><br>
+            Name:
+            <input type="text" name="submitterName" value="" autocomplete=off><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="modsortlist.js"></script>
+
+</body>
+
+</html>

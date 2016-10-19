@@ -1,0 +1,60 @@
+body {
+    background: #79aea3;
+}
+
+#sortableContainer {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#sortable {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+#sortable li.ui-state-default {
+    margin: 6px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.4em;
+    height: 50px;
+    border: 1px #484041 solid;
+    padding: 5px;
+    color: #484041;
+    background: #a39594;
+    text-shadow: 1px 1px 0px rgba(255,255,255,.25);
+}
+
+#sortable li.ui-state-highlight {
+    margin: 0px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.4em;
+    height: 50px;
+    border: 1px #484041 dashed;
+    padding: 5px;
+    color: #484041;
+    background: rgba(163, 149, 149, 0.5);
+    text-shadow: 1px 1px 0px rgba(255,255,255,.25);
+}
+
+#sortable li.ui-sortable-helper {
+    margin: 0px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.4em;
+    height: 50px;
+    border: 1px #484041 solid;
+    padding: 5px;
+    color: #484041;
+    background: rgba(163, 149, 149);
+    text-shadow: 1px 1px 0px rgba(255,255,255,.25);
+}
+
+#ourForm {
+  text-align: center;
+}
